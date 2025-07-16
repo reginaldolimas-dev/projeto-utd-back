@@ -16,7 +16,7 @@ app.use(bodyParser.json());
 app.use(express.static('resources'));
 app.use('/api', router);
 
-const server = app.listen(8080, '127.0.0.1', function () {
+const server = app.listen(8090, '127.0.0.1', function () {
 
     let host = server.address().address
     let port = server.address().port
